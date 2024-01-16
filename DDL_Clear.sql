@@ -1,0 +1,9 @@
+-- Cleanup for DDL
+
+DROP USER group6 CASCADE;
+DROP USER testUser1;
+DROP ROLE applicationAdmin2;
+DROP ROLE applicationUser2;
+DROP TABLESPACE TOOL_COLLECTION INCLUDING CONTENTS AND DATAFILES;
+
+-- End of File
